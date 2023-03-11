@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CineFlex</title>
+	<style>
+		body {
+			background-color: #000;
+			color: #fff;
+			font-family: Arial, sans-serif;
+		}
+
+		.container {
+			max-width: 1200px;
+			margin: 0 auto;
+			padding: 50px;
+			display: flex;
+			align-items: center;
+		}
+
+		.image {
+			flex: 1;
+		}
+
+		.image img {
+			max-width: 100%;
+			height: auto;
+		}
+
+		.sidebar {
+			background-color: #8b008b;
+			width: 30%;
+			padding: 20px;
+			border-radius: 10px;
+			margin-left: 50px;
+			flex: 2;
+		}
+
+		h1 {
+			font-size: 48px;
+			margin-top: 0;
+			margin-bottom: 30px;
+		}
+
+		.description {
+			font-size: 24px;
+			line-height: 1.5;
+			margin-bottom: 50px;
+		}
+
+		.list {
+			list-style: none;
+			padding: 0;
+			margin: 0;
+		}
+
+		.list-item {
+			margin-bottom: 10px;
+		}
+
+		button {
+			background-color: #fff;
+			color: #000;
+			padding: 10px 20px;
+			border-radius: 5px;
+			border: none;
+			cursor: pointer;
+			font-size: 16px;
+			font-weight: bold;
+			margin-top: 20px;
+			box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+		}
+
+		button:hover {
+			background-color: #000;
+			color: #fff;
+		}
+
+<div class="cube-container">
+  <div class="cube">
+    <div class="face front">Front</div>
+    <div class="face back">Back</div>
+    <div class="face top">Top</div>
+    <div class="face bottom">Bottom</div>
+    <div class="face left">Left</div>
+    <div class="face right">Right</div>
+  </div>
+</div>
+.cube-container {
+  perspective: 1000px;
+  margin: 50px auto;
+}
+
+.cube {
+  width: 200px;
+  height: 200px;
+  position: relative;
+  transform-style: preserve-3d;
+  animation: rotate 5s infinite linear;
+}
+
+.face {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  line-height: 200px;
+  font-size: 48px;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  background: rgba(255, 255, 255, 0.1);
+  border: 2px solid white;
+  box-sizing: border-box;
+}
+
+.front {
+  transform: translateZ(100px);
+}
+
+.back {
+  transform: rotateY(180deg) translateZ(100px);
+}
+
+.top {
+  transform: rotateX(90deg) translateZ(100px);
+}
+
+.bottom {
+  transform: rotateX(-90deg) translateZ(100px);
+}
+
+.left {
+  transform: rotateY(-90deg) translateZ(100px);
+}
+
+.right {
+  transform: rotateY(90deg) translateZ(100px);
+}
+
+@keyframes rotate {
+  from { transform: rotateY(0deg); }
+  to { transform: rotateY(360deg); }
+}
+const cube = document.querySelector('.cube');
+
+cube.addEventListener('mouseover', () => {
+  cube.style.animationPlayState = 'paused';
+});
+
+cube.addEventListener('mouseout', () => {
+  cube.style.animationPlayState = 'running';
+});
+
+
+    function year() {
+      var krnl = [
+        "https://www.youtube.com",
+        "https://www.youtube.com",
+        "https://www.youtube.com"
+      ];
+      var paginaAleatoria = paginas[Math.floor(Math.random() * paginas.length)];
+      window.location = paginaAleatoria;
+    }
+	</style>
+</head>
+<body>
+<div class="container">
+  <div class="image">
+    <img src="cine.png" alt="Imagem" width="10%">
+  </div>
+</div>
+
+
+		<div class="sidebar">
+			<h1>CineFlex</h1>
+			<div class="description">
+				<p>CineFlex, bem vindo ao site do Cineflex Original sem SpyWare Trojan ou Bitcoin Miner. Cineflex não tem filmes piratas ou seja é seguro e o dono não vai ser preso por pirataria pois todos os conteudos são "Partes de Filmes que tem a duração do Filmes Ainda Dublado Com Marca de Um Site Pirata Com Uma Otima Qualidade 8k HD 100Fps Isso não é pirata Confia"Entre Agora no CineFlex o melhor Site do Mundo Você pode entrar agora no cineflex Original</p>
+				<p>Entre Agora no Cineflex o Melhor Site Pirat- quer dizer O Melhor Site não Pirata de Filmes do Mundo que Ainda não é.com :(</p>
+			</div>
+
+			<h2>Filmes Mas Assistidos no CineFlex</h2>
+			<ul class="list">
+				<li class="list-item">Foi a Dani, que Dani? 1</li>
+				<li class="list-item">Filme</li>
+				<li class="list-item">Qual o File</li>
+				<li class="list-item">o Filme</li>
+				<li class="list-item">o Filme Dois ou Um 5</li>
+				<li class="list-item">Panico no Mato 6</li>
+				<li class="list-item">White Adam</li>
+				<li class="list-item">The Low</li>
+                        <li class="list-item">How Program In Windows MS-DOS 1982 Full Guide</li>
+                        <li class="list-item">The Most Bigger Dicks From World 2007 Watch the Most Big Dick from Hot Mans</li>
+                        <li class="list-item">North Park</li>
+                        <li class="list-item">Historia de Mc Pipokinha</li>
+                        <li class="list-item">Incrivel Mundo de Gumball Temporada 7,8 e 9 2023</li>
+                        <li class="list-item">Poeira em Alto Mar</li>
+                        <li class="list-item">A Volta da Aqueles que Não Foram</li>
+                        <li class="list-item">O Choro do Bebe que Não Chorou</li>
+                        <li class="list-item">The Most LOOOONG Film of World</li>
+                        <li class="list-item">A Historia do Brasil Para você que Odeia Vistas Da Muito Tedio</li>
+                        <li class="list-item">Matematica o Filmes mas Matematico e Chato Do Mundo</li>
+                        <li class="list-item">1 Hora de Dança da Wandinha</li>
+                        <li class="list-item">Alt+F4 O Windows</li>
+                        <li class="list-item">Porque Não Deve Dar Celulares e Computadores para Criança com eu que tenho 12 :)</li>
+                        <li class="list-item">Pirataria e ILegal Porque?</li>
+                        <li class="list-item">Como Colocar .COM em um Site não.com</li>
+                        <li class="list-item">Porque não da para criar Uma Pasta com Nome Con?</li>
+				<li class="list-item">The First Of Us</li><li class="list-item">Sonic.vbs o Terror do Windows 98</li>
+		</ul>
+
+		<button onclick="playMusic()">Tocar música</button>
+<button>
+  <a href="https://www.youtube.com/https://www.youtube.com/watch?v=m72S9dgfSOs" target="_blank">
+    Abrir Cineflex
+  </a>
+</button>
+
+<button>
+  <a href="https://badhtml.com" target="_blank">
+    Abrir Cineflex Atualizado Filmes Atualizados 2023 Melhor versão
+  </a>
+</button>
+
+<button>
+  <a href="https://badhtml.com" target="_blank">
+    baixar CineFlex para PC
+  </a>
+</button>
+		<audio id="music" src="pink.mp3"></audio>
+		<script>
+			function playMusic() {
+				document.getElementById('music').play();
+			}
+		</script>
+	</div>
+</div>
+</body>
+</html>
